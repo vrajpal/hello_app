@@ -7,6 +7,9 @@
     "@rails/ujs": "^6.0.0",
     "turbolinks": "^5.2.0"
   },
+  "scripts": {
+    "heroku-prebuild": "npm install --dev"
+  },
   "version": "0.1.0",
   "devDependencies": {
     "webpack": "^4.0.0",
